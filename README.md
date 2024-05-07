@@ -13,13 +13,13 @@ Requirements
 
 Download/Installation
 ====
-* git clone https://github.com/maldevel/IPGeoLocation
-* pip3 install -r requirements.txt --user
+* ```git clone https://github.com/kdsmedia/ceklok```
+* ```pip3 install -r requirements.txt --user```
 
 if pip3 is missing:
-* apt-get install python3-setuptools
-* easy_install3 pip
-* pip3 install -r requirements.txt
+* ```apt-get install python3-setuptools```
+* ```easy_install3 pip```
+* ```pip3 install -r requirements.txt```
 
 
 Features
@@ -54,15 +54,15 @@ Geolocation Information
 Usage
 ====
 ```
-$ ./ip2geolocation.py
+$ ```./ip2geolocation.py```
 usage: ipgeolocation.py [-h] [-m] [-t TARGET] [-T file] [-u User-Agent]
                         [-U file] [-g] [--noprint] [-v] [--nolog] [-x PROXY]
                         [-X file] [-e file] [-ec file] [-ex file]
 
-IPGeolocation 2.0.4
+IPceklok 2.0.4
 
 --[ Retrieve IP Geolocation information from ip-api.com
---[ Copyright (c) 2015-2016 maldevel (@maldevel)
+--[ Copyright (c) 2015-2024 maldevel (@maxwowuser)
 --[ ip-api.com service will automatically ban any IP addresses doing over 150 requests per minute.
 
 optional arguments:
@@ -95,46 +95,46 @@ files with this option.
 Examples
 ====
 **Retrieve your IP Geolocation**
-* ./ip2geolocation.py -m
+* ```./ip2geolocation.py -m```
 
 **Retrieve IP Geolocation**
-* ./ip2geolocation.py -t x.x.x.x
+* ```./ip2geolocation.py -t x.x.x.x```
 
 **Retrieve Domain Geolocation**
-* ./ip2geolocation.py -t example.com
+* ```./ip2geolocation.py -t example.com```
 
 **Do not save .log files**
-* ./ip2geolocation.py -t example.com --nolog
+* ```./ip2geolocation.py -t example.com --nolog```
 
 **Custom User Agent string** 
-* ./ip2geolocation.py -t x.x.x.x -u "Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko"
+* ```./ip2geolocation.py -t x.x.x.x -u "Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko"```
 
 **Using Proxy**
-* ./ip2geolocation.py -t x.x.x.x -x http://127.0.0.1:8080
+* ```./ip2geolocation.py -t x.x.x.x -x http://127.0.0.1:8080```
 
 **Using random Proxy**
-* ./ip2geolocation.py -t x.x.x.x -X /path/to/proxies/filename.txt
+* ```./ip2geolocation.py -t x.x.x.x -X /path/to/proxies/filename.txt```
 
 **Pick User-Agent string randomly**
-* ./ip2geolocation.py -t x.x.x.x -U /path/to/user/agent/strings/filename.txt
+* ```./ip2geolocation.py -t x.x.x.x -U /path/to/user/agent/strings/filename.txt```
 
 **Retrieve IP geolocation and open location in Google maps with default browser**
-* ./ip2geolocation.py -t x.x.x.x -g
+* ```./ip2geolocation.py -t x.x.x.x -g```
 
 **Export results to CSV file**
-* ./ip2geolocation.py -t x.x.x.x --csv /path/to/results.csv
+* ```./ip2geolocation.py -t x.x.x.x --csv /path/to/results.csv```
 
 **Export results to XML file**
-* ./ip2geolocation.py -t x.x.x.x --xml /path/to/results.xml
+* ```./ip2geolocation.py -t x.x.x.x --xml /path/to/results.xml```
 
 **Export results to TXT file**
-* ./ip2geolocation.py -t x.x.x.x -e /path/to/results.txt
+* ```./ip2geolocation.py -t x.x.x.x -e /path/to/results.txt```
 
 **Retrieve IP Geolocation for many targets**
-* ./ip2geolocation.py -T /path/to/targets/targets.txt
+* ```./ip2geolocation.py -T /path/to/targets/targets.txt```
 
 **Retrieve IP Geolocation for many targets and export results to xml**
-* ./ip2geolocation.py -T /path/to/targets/targets.txt --xml /path/to/results.xml
+* ```./ip2geolocation.py -T /path/to/targets/targets.txt --xml /path/to/results.xml``
 
 **Do not print results to terminal**
-* ./ip2geolocation.py -m -e /path/to/results.txt --noprint 
+* ```./ip2geolocation.py -m -e /path/to/results.txt --noprint ```
