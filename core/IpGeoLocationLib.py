@@ -3,8 +3,8 @@
 
 """
     This file is part of IPGeoLocation tool.
-    Copyright (C) 2015-2016 @maldevel
-    https://github.com/maldevel/IPGeoLocation
+    Copyright (C) 2015-2024 @maxwowuser
+    https://github.com/kdsmedia/ceklok
     
     IPGeoLocation - Retrieve IP Geolocation information 
     Powered by http://ip-api.com
@@ -25,7 +25,7 @@
     For more see the file 'LICENSE' for copying permission.
 """
 
-__author__ = 'maldevel'
+__author__ = 'maxwowuser'
 
 from core.Utils import Utils
 import json, random, os
