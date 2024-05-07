@@ -54,7 +54,7 @@ Geolocation Information
 Usage
 ====
 ```
-$ ```./ip2geolocation.py```
+$ ./ip2geolocation.py
 usage: ipgeolocation.py [-h] [-m] [-t TARGET] [-T file] [-u User-Agent]
                         [-U file] [-g] [--noprint] [-v] [--nolog] [-x PROXY]
                         [-X file] [-e file] [-ec file] [-ex file]
