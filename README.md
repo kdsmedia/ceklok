@@ -1,4 +1,4 @@
-# IPGeoLocation
+# IPGeoLocationCekLok
 ====
 * A tool to retrieve IP Geolocation information
 * Powered by [ip-api](http://ip-api.com/docs/)
