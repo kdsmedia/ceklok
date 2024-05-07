@@ -3,8 +3,8 @@
 
 """
     This file is part of IPGeoLocation tool.
-    Copyright (C) 2015-2016 @maldevel
-    https://github.com/maldevel/IPGeoLocation
+    Copyright (C) 2015-2024 @maxwowuser
+    https://github.com/kdsmedia/ceklok
     
     IPGeoLocation - Retrieve IP Geolocation information 
     Powered by http://ip-api.com
@@ -25,10 +25,9 @@
     For more see the file 'LICENSE' for copying permission.
 """
 
-__author__   = 'maldevel'
-__twitter__  = '@maldevel'
+__author__   = 'ALTOMEDIA'
 __version__  = '2.0.4'
-__year__     = '2015-2016'
+__year__     = '2015-2024'
 
 
 from argparse import RawTextHelpFormatter
@@ -44,7 +43,7 @@ banner = """
 {1} Copyright (c) {2} {3} ({4})
 {1} ip-api.com service will automatically ban any IP addresses doing over 150 requests per minute.
 
-""".format(Red('IPGeolocation ' + __version__), Red('--['), __year__, __author__, __twitter__)
+""".format(Red('IPGeolocation ' + __version__), Red('--['), __year__, __author__)
 
 
 def checkFileRead(filename):
